@@ -22,7 +22,6 @@ function Converter(n) {
 const getNum = () => {
 	let num = binaryInput.value
 	binaryOutput.value = Converter(num)
-	console.log(num)
 }
 
 zeroBtn.addEventListener("click", () => {
